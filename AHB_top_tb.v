@@ -63,7 +63,7 @@ wire done;
 wire busy;
 wire uart_done;
 wire uart_busy;
-wire [DataWidth-1 : 0] HRdata_out;
+    wire [DataWidth-1 : 0] HRdata_out;
 wire tx;          // uart slave
 wire load_out;
 
